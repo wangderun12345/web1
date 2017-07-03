@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用设置*/
+*{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+	font-family: 宋体;
+}
+body{font-size:12px;}
+a{color:#666; text-decoration:none;}
+a:hover{color:#000; text-decoration:underline;}
+a img{border:none;}
+.clear{clear:both;}
+
+#main{
+	width:860px; 
+	margin:0 auto;
+}
+#header{
+	height:60px;
+}
+#logo{
+	height:60px; 
+	background:url(../images/logo.gif) no-repeat left center; 
+	padding-left:60px; 
+	font-size:24px; 
+	font-weight:bold; 
+	line-height:60px;
+}
+#logo  #sousuo{
+	float: right;
+	margin: 0px;
+}
+{
+	height:40px; 
+	background:#000; 
+	border-radius:5px; 
+	overflow:hidden;
+}
+#menu ul{}
+#menu ul li{
+	float:left; 
+	height:40px; 
+	margin-right:10px; 
+	line-height:40px;
+}
+#menu ul li a{
+	display:block; 
+	float: left; 
+	height:40px; 
+	padding:0 30px; 
+	color:#ddd;
+}
+#menu ul li a:hover{
+	background:#333;
+}
+#banner{
+	margin-top:10px; 
+	background:url(../images/banner.jpg) no-repeat center top; 
+	position:relative; 
+	height:277px;
+}
+#banner .about{
+	width:180px; 
+	position:absolute; 
+	left:0; 
+	top:0; 
+	height:257px; 
+	background:#000; 
+	color:#fff; 
+	padding:10px;
+}
+#banner .about h2{
+	font-size:18px; 
+	line-height:30px;
+}
+#banner .about p{
+	text-indent:24px; 
+	line-height:25px;
+}
+#notice{height:30px; 
+	line-height:30px; 
+	border:1px solid #000; 
+	margin-top:10px;
+}
+#itemlist{
+	margin-top:10px;
+}
+#itemlist ul.list{}
+#itemlist ul.list li.item{
+	width:215px; 
+	float:left;
+}
+#itemlist ul.list li.item .box{
+	padding:5px; 
+	border:1px solid #000; 
+	margin:0 10px;
+}
+#itemlist ul.list li.item .box img{
+	width:183px; 
+	height:230px;
+}
+#itemlist ul.list li.item h3{
+	padding:0 10px; 
+	line-height:25px; 
+	font-size:14px;
+}
+.banner2{
+	margin-top:10px; 
+	height:180px;
+}
+.banner2 img{
+	width:860px; 
+	height:180px;
+}
+#content{
+	margin-top:10px; 
+	line-height:25px;
+}
+#content h1{
+	height:40px; 
+	text-align:center; 
+	font-size:24px; 
+	line-height:40px;
+}
+#content p{
+	text-indent:24px; 
+	padding:5px 0;
+}
+
+table#messagetable{}
+table#messagetable td{
+	padding:10px;
+}
+table#messagetable td input.bar{
+	width:220px; 
+	height:35px; 
+	border:1px solid #ddd;
+}
+table#messagetable td input.btn{
+	height:40px; 
+	width:220px; 
+	border:none; 
+	cursor:pointer; 
+	background:#222; 
+	color:#fff;}
+table#messagetable td textarea{
+	width:300px; 
+	height:120px; 
+	border:1px solid #ddd;
+}
+
+#footer{
+	background:#000; 
+	color:#aaa; 
+	padding:15px 15px 25px; 
+	margin-top:20px;
+}
